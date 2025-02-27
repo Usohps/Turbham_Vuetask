@@ -61,10 +61,10 @@ const isMenuOpen = ref(false);
             class="block text-black transition hover:text-primary ease-linear text-xl md:text-lg"
             @click="scrollToSection(item.href)"
           >
-            {{ item.name }}
+            <p>{{ item.name }}</p>
           </a>
         </li>
-        <BaseButton label="Request a quote" />
+        <BaseButton label="Request a quote" variant="outline" />
       </ul>
     </nav>
   </header>

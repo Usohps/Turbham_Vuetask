@@ -4,9 +4,10 @@
     <Suspense>
       <template #default>
         <!-- Wrap all Components inside a single root element -->
-        <div class="lg:px-24">
+        <div class="lg:px-20">
           <NavBar />
           <HeroSection />
+          <CompanyLogo />
         </div>
       </template>
       <template #fallback>
@@ -26,6 +27,9 @@ const NavBar = defineAsyncComponent(() =>
 );
 const HeroSection = defineAsyncComponent(() =>
   import("./components/layouts/HeroSection.vue")
+);
+const CompanyLogo = defineAsyncComponent(() =>
+  import("./components/layouts/CompanyLogos.vue")
 );
 
 import LoadingSpinner from "./components/ui/LoadingSpinner.vue";

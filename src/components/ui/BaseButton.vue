@@ -20,8 +20,8 @@ const sizeClasses = {
 // Variant classes
 const variantClasses = {
   primary: "bg-white text-black hover:bg-gray-100 border rounded-xl",
-  secondary: "bg-gray-600 text-white hover:bg-gray-700",
-  outline: "border border-gray-600 text-gray-600 hover:bg-gray-100",
+  secondary: "bg-[#191A23] text-[#FFFFFF] hover:bg-gray-700",
+  outline: "border border-[#191A23] text-gray-600 hover:bg-gray-100",
 };
 
 // Compute final button classes
